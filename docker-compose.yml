@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+    backend:
+        container_name: serviceMonitor
+        build: .
+        ports:
+            - "1523:5000"
